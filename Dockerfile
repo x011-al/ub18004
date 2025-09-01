@@ -30,4 +30,4 @@ RUN mkdir -p /run/sshd \
 WORKDIR /app
 
 # Perintah default untuk menjalankan SSHD saat container dimulai
-CMD ["/usr/sbin/sshd", "-D"]
+CMD ["/bin/bash"]
